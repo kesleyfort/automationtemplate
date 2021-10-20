@@ -4,7 +4,7 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset" name="ProjectConfiguration" removed="false">
-          <file>file://$MODULE_DIR$/src/main/java/br/com/mellro/configuration/ProjectConfiguration.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/br/com/template/configuration/ProjectConfiguration.java</file>
         </fileset>
       </configuration>
     </facet>

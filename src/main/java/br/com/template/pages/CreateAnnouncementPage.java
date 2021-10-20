@@ -125,7 +125,7 @@ public class CreateAnnouncementPage extends AbstractPage{
     }
 
     public boolean isUploadedImageVisible() {
-       return imageInput.getAttribute("style").contains("blob:https://dev-app.mellro.com/");
+       return imageInput.getAttribute("style").contains("blob:https://domain.com/");
     }
 
     public void clickContinue() {

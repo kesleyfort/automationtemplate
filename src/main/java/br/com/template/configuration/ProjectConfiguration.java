@@ -46,7 +46,7 @@ public class ProjectConfiguration {
                 capabilities.setBrowserName(System.getProperty("browser"));
             }
             if(System.getProperty("REMOTE_WEBDRIVER_URL")==null){
-                String gridUrl = "https://selenium-hub.mellro.com/wd/hub";
+                String gridUrl = "https://selenium-hub.domain.com/wd/hub";
                 System.setProperty("REMOTE_WEBDRIVER_URL", gridUrl);
             }
             return new RemoteWebDriverProvider(capabilities);
