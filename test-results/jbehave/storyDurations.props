@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Fri Sep 17 15:47:30 BRT 2021
+stories/cpf_validation.story=59000
+total=59000
+threadAverage=59000
+threads=1

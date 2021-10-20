@@ -1,0 +1,20 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/cpf_validation.story</div>
+<div class="beforeStorySteps">
+</div>
+<div class="scenario">
+<h2>Scenario: User validates tenant cpf score
+Description: As a user i want to validate the presence of user cpf validation form</h2>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@smoke </div>
+</div>
+<div class="step successful">Given access the initial page</div>
+<div class="step successful">When I click login button</div>
+<div class="step successful">When I fill the field <span class="step parameter">email</span> with <span class="step parameter">EMAIL_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">password</span> with <span class="step parameter">PWORD_REGISTER</span></div>
+<div class="step successful">And I click continue</div>
+<div class="step successful">When I navigate to cpf validation page</div>
+<div class="step successful">And I click Fazer Analise button</div>
+<div class="step successful">Then I should see the cpf validation forms</div>

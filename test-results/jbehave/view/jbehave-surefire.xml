@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd"
+           name="br.com.template.configuration.AbstractStoryConfiguration" time="56.27"
+           tests="1" errors="0" skipped="0" failures="0">
+<properties>
+<property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+<property name="java.specification.version" value="11"/>
+<property name="sun.cpu.isalist" value=""/>
+<property name="sun.jnu.encoding" value="UTF-8"/>
+<property name="java.class.path" value="/tmp/classpath1540806428.jar"/>
+<property name="java.vm.vendor" value="Amazon.com Inc."/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="idea.test.cyclic.buffer.size" value="1048576"/>
+<property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+<property name="user.timezone" value="America/Sao_Paulo"/>
+<property name="os.name" value="Linux"/>
+<property name="java.vm.specification.version" value="11"/>
+<property name="webdriver" value="geckodriver"/>
+<property name="remoteTesting" value="false"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="user.country" value="US"/>
+<property name="sun.boot.library.path" value="/home/kalves/.jdks/corretto-11.0.12/lib"/>
+<property name="sun.java.command" value="com.intellij.rt.junit.JUnitStarter -ideVersion5 -junit4 br.com.template.AllStories"/>
+<property name="jdk.debug" value="release"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="user.home" value="/home/kalves"/>
+<property name="user.language" value="en"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.version.date" value="2021-07-20"/>
+<property name="java.home" value="/home/kalves/.jdks/corretto-11.0.12"/>
+<property name="metafilter" value="+ignored"/>
+<property name="file.separator" value="/"/>
+<property name="java.vm.compressedOopsMode" value="Zero based"/>
+<property name="line.separator" value="
+"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="intellij.debug.agent" value="true"/>
+<property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="java.runtime.version" value="11.0.12+7-LTS"/>
+<property name="user.name" value="kalves"/>
+<property name="path.separator" value=":"/>
+<property name="os.version" value="5.13.14-200.fc34.x86_64"/>
+<property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+<property name="file.encoding" value="UTF-8"/>
+<property name="browser" value="firefox"/>
+<property name="sun.nio.ch.bugLevel" value=""/>
+<property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+<property name="java.vendor.version" value="Corretto-11.0.12.7.1"/>
+<property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+<property name="java.io.tmpdir" value="/tmp"/>
+<property name="java.version" value="11.0.12"/>
+<property name="jboss.modules.system.pkgs" value="com.intellij.rt"/>
+<property name="user.dir" value="/home/kalves/Backup/Mellro/mellro-ui-automation"/>
+<property name="os.arch" value="amd64"/>
+<property name="webdriver.gecko.driver" value="geckodriver"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+<property name="env" value="dev"/>
+<property name="sun.os.patch.level" value="unknown"/>
+<property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+<property name="java.vm.info" value="mixed mode"/>
+<property name="java.vendor" value="Amazon.com Inc."/>
+<property name="java.vm.version" value="11.0.12+7-LTS"/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="java.class.version" value="55.0"/>
+</properties>
+<testcase name="cpf_validation.User validates tenant cpf score
+Description: As a user i want to validate the presence of user cpf validation form" classname="br.com.template.configuration.AbstractStoryConfiguration" time="56.27"></testcase>
+</testsuite>

@@ -1,0 +1,53 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/announcement.story</div>
+<div class="beforeStorySteps">
+</div>
+<div class="scenario">
+<h2>Scenario: Login</h2>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@smoke </div>
+</div>
+<div class="step successful">Given access the initial page</div>
+<div class="step successful">When I click login button</div>
+<div class="step successful">When I fill the field <span class="step parameter">email</span> with <span class="step parameter">EMAIL_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">password</span> with <span class="step parameter">PWORD_REGISTER</span></div>
+<div class="step successful">And I click continue</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Create announcement</h2>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@smoke </div>
+</div>
+<div class="step successful">Given I click announcement link</div>
+<div class="step successful">When I fill the field <span class="step parameter">cep</span> with <span class="step parameter">CEP_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">bairro</span> with <span class="step parameter">NEIGHBOURHOOD</span></div>
+<div class="step successful">And I select the state <span class="step parameter">STATE_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">cidade</span> with <span class="step parameter">CITY_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">endereco</span> with <span class="step parameter">ADDRESS_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">numero</span> with <span class="step parameter">HOUSE_NUMBER_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">complemento</span> with <span class="step parameter">ADDRESS2_REGISTER</span></div>
+<div class="step successful">And I click continue</div>
+<div class="step successful">When I select land type <span class="step parameter">Apartamento</span></div>
+<div class="step successful">And I select room quantity equal to <span class="step parameter">2</span></div>
+<div class="step successful">And I select bathroom quantity equal to <span class="step parameter">1</span></div>
+<div class="step successful">And I select garage quantity equal to <span class="step parameter">0</span></div>
+<div class="step successful">And I select animal policy permited</div>
+<div class="step successful">And I fill the field <span class="step parameter">metragem</span> with <span class="step parameter">METRIC_REGISTER</span></div>
+<div class="step successful">And I click continue</div>
+<div class="step successful">When I upload a property image</div>
+<div class="step successful">Then I should see the uploaded image</div>
+<div class="step successful">And I click continue</div>
+<div class="step successful">When I select the <span class="step parameter">renter</span> to afford apartment taxes</div>
+<div class="step successful">When I fill the rent and apartment values/taxes</div>
+<div class="step successful">And I select guarantee type <span class="step parameter">SECURITY_DEPOSIT</span></div>
+<div class="step successful">And I select <span class="step parameter">3</span> months security deposit</div>
+<div class="step successful">And I click continue</div>
+<div class="step successful">And I click review announcement</div>
+<div class="step successful">And I click continue</div>
+</div>
+<div class="afterStorySteps">
+</div>
+</div>

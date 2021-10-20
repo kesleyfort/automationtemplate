@@ -1,0 +1,152 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/navigation.story</div>
+<div class="beforeStorySteps">
+</div>
+<div class="scenario">
+<h2>Scenario: check login</h2>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@smoke </div>
+</div>
+<div class="step successful">Given access the initial page</div>
+<div class="step successful">When I click login button</div>
+<div class="step successful">Then I should see login page</div>
+</div>
+<div class="scenario">
+<h2>Scenario: create account</h2>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@smoke </div>
+</div>
+<div class="step successful">Given I am at login page</div>
+<div class="step successful">When I click create account link</div>
+<div class="step successful">Then I should see the register page</div>
+<div class="step successful">When I fill the field <span class="step parameter">name</span> with <span class="step parameter">COMPLETE_NAME</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">email</span> with <span class="step parameter">EMAIL_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">email_confirm</span> with <span class="step parameter">EMAIL_REGISTER</span></div>
+<div class="step successful">And I agree with the terms and conditions</div>
+<div class="step successful">And I click continue</div>
+<div class="step successful">And I fill the field <span class="step parameter">password</span> with <span class="step parameter">PWORD_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">password_confirm</span> with <span class="step parameter">PWORD_REGISTER</span></div>
+<div class="step successful">And I click continue</div>
+<div class="step successful">And I fill the field <span class="step parameter">phone</span> with <span class="step parameter">PHONE_REGISTER</span></div>
+<div class="step successful">And I click continue</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Login</h2>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@smoke </div>
+</div>
+<div class="step successful">Given access the initial page</div>
+<div class="step successful">When I click login button</div>
+<div class="step successful">Then I should see login page</div>
+<div class="step successful">When I fill the field <span class="step parameter">email</span> with <span class="step parameter">EMAIL_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">password</span> with <span class="step parameter">PWORD_REGISTER</span></div>
+<div class="step successful">And I click continue</div>
+<div class="step successful">Then I should see my avatar logged as <span class="step parameter">FIRST_NAME</span></div>
+</div>
+<div class="scenario">
+<h2>Scenario: Navigate profile page</h2>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@smoke </div>
+</div>
+<div class="step successful">When I click on my avatar link</div>
+<div class="step successful">When I click my profile button</div>
+<div class="step successful">Then I should see my profile page</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Change my personal data</h2>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@smoke </div>
+</div>
+<div class="step successful">When I click on my personal data</div>
+<div class="step ignorable">!-- Given I dismiss all error messages</div>
+<div class="step successful">When I click edit data</div>
+<div class="step successful">And I fill the field <span class="step parameter">cep</span> with <span class="step parameter">CEP_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">data_nascimento</span> with <span class="step parameter">BORN_REGISTER</span></div>
+<div class="step successful">And I select the state <span class="step parameter">STATE_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">cidade</span> with <span class="step parameter">CITY_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">neighbourhood</span> with <span class="step parameter">NEIGHBOURHOOD</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">endereco</span> with <span class="step parameter">ADDRESS_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">numero</span> with <span class="step parameter">HOUSE_NUMBER_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">complemento</span> with <span class="step parameter">ADDRESS2_REGISTER</span></div>
+<div class="step successful">And I click save</div>
+<div class="step successful">Then I should see a success message <span class="step parameter">Seu perfil foi atualizado com sucesso.</span></div>
+<div class="step successful">Given I dismiss all success messages</div>
+<div class="comment">!-- Scenario: Validate my personal data</div>
+<div class="step ignorable">!-- When I click send documents</div>
+<div class="step ignorable">!-- And I click continue</div>
+<div class="step ignorable">!-- When I fill the field cpf with CPF_REGISTER</div>
+<div class="step ignorable">!-- When I fill the field birthdate with BORN_REGISTER</div>
+<div class="step ignorable">!-- When I fill the field mother_name with MOTHER_NAME</div>
+<div class="step ignorable">!-- When I upload the document files</div>
+<div class="step ignorable">!-- And I click continue</div>
+<div class="step ignorable">!-- Then I should see a info message Seu cadastro est&aacute; em an&aacute;lise</div>
+<div class="step ignorable">!-- When I click continue</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Fill bank account</h2>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@smoke </div>
+</div>
+<div class="step successful">When I click on my bank account data</div>
+<div class="step successful">And I click edit data</div>
+<div class="step successful">And I select the bank <span class="step parameter">BANK_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">agencia</span> with <span class="step parameter">BANK_AGENCY</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">numero_conta</span> with <span class="step parameter">ACCOUNT_NUMBER</span></div>
+<div class="step successful">And I select account type <span class="step parameter">Corrente</span></div>
+<div class="step successful">And I click save</div>
+<div class="step successful">Then I should see a success message <span class="step parameter">Dados banc&aacute;rios alterados.</span></div>
+<div class="step successful">Given I dismiss all success messages</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Change PWD</h2>
+<div class="step successful">When I click on profile menu <span class="step parameter">Alterar senha</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">old_password</span> with <span class="step parameter">PWORD_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">new_password</span> with <span class="step parameter">PWORD_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">new_password_confirm</span> with <span class="step parameter">PWORD_REGISTER</span></div>
+<div class="step successful">And I click save</div>
+<div class="step successful">Then I should see a error message <span class="step parameter">A nova senha n&atilde;o pode ser igual a senha anterior.</span></div>
+<div class="step successful">Given I dismiss all error messages</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Change PWD</h2>
+<div class="step successful">When I click on profile menu <span class="step parameter">Alterar senha</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">old_password</span> with <span class="step parameter">PWORD_REGISTER</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">new_password</span> with <span class="step parameter">PWORD_REGISTER_2</span></div>
+<div class="step successful">And I fill the field <span class="step parameter">new_password_confirm</span> with <span class="step parameter">PWORD_REGISTER_2</span></div>
+<div class="step successful">And I click save</div>
+<div class="step successful">Then I should see a success message <span class="step parameter">Senha alterada com sucesso.</span></div>
+<div class="step successful">Given I dismiss all success messages</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Logout</h2>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@smoke </div>
+</div>
+<div class="step successful">When I click on my avatar link</div>
+<div class="step successful">When I click logout button</div>
+<div class="step successful">Then I should see the properties search page</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Forgot PWD</h2>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@smoke </div>
+</div>
+<div class="step successful">When I click login button</div>
+<div class="step successful">And I click I forgot password</div>
+<div class="step successful">And I fill the field <span class="step parameter">email</span> with <span class="step parameter">EMAIL_REGISTER</span></div>
+<div class="step successful">And I click continue</div>
+<div class="step successful">Then I should see a success message <span class="step parameter">Confira sua caixa de email para redefinir sua senha.</span></div>
+<div class="step successful">Given I dismiss all success messages</div>
+</div>
+<div class="afterStorySteps">
+</div>
+</div>
